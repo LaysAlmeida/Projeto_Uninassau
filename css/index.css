@@ -59,10 +59,10 @@ hr {
 	border-color: #24dcbc;
 }
 .background-idosos h1 {
-    color: #ffff;
+    color: rgb(70, 19, 19);
     font-size: 50px; 
     text-align-last: left;
-    display: inline-block;
+    display: inline;
     font-family: Vazirmatn;
     font-weight: lighter;
  }
@@ -70,6 +70,12 @@ hr {
     font-family: Vazirmatn;
     font-size: 25px;
     font-weight: lighter;
+    text-align-last: left;
+ }
+ #section {
+    background-color: #ffffff54;
+    text-align: left;
+    padding: 50px;
  }
 .background-idosos {
     background-image: url("../images/idosos_home.png");
@@ -82,3 +88,6 @@ hr {
     background-size: cover;
     
  } 
+ .background-idosos div {
+    background-color: ffffff54;;
+ }
