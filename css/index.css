@@ -58,7 +58,7 @@ hr {
 	border: 2px solid; 
 	border-color: #24dcbc;
 }
- h1 {
+.background-idosos h1 {
     color: #ffff;
     font-size: 50px; 
     text-align-last: left;
@@ -66,7 +66,7 @@ hr {
     font-family: Vazirmatn;
     font-weight: lighter;
  }
- h3 {
+ .background-idosos h3 {
     font-family: Vazirmatn;
     font-size: 25px;
     font-weight: lighter;
