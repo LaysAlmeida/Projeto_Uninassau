@@ -59,7 +59,7 @@ hr {
 	border-color: #24dcbc;
 }
 .background-idosos h1 {
-    color: rgb(70, 19, 19);
+    color: #875757fb;
     font-size: 50px; 
     text-align-last: left;
     display: inline;
@@ -69,10 +69,13 @@ hr {
  .background-idosos h3 {
     font-family: Vazirmatn;
     font-size: 25px;
-    font-weight: lighter;
+    font-weight:500;
+    padding-left: 400px;
     text-align-last: left;
+
  }
  #section {
+    
     background-color: #ffffff54;
     text-align: left;
     padding: 50px;
@@ -88,6 +91,3 @@ hr {
     background-size: cover;
     
  } 
- .background-idosos div {
-    background-color: ffffff54;;
- }
