@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
+
+
+body {
+    box-sizing: border-box;
+}
+
+
+#logo-home {
+    position: relative;
+    width: 940px;
+    margin: left;
+}
+.nav-bar {
+    position: absolute;
+    top: 0px;
+    bottom: auto;
+    right: 70px;
+    list-style-type: none;
+    padding: 0px;
+    background-color: #ffff;
+}
+.nav-bar li {
+    display: inline;
+    margin: 0 0 0 28px;
+}
+
+#color-btn-signup a {
+   color:#24dcbc;
+
+}
+
+#color-btn-login a {
+color: #4ea87f;
+
+}
+
+.nav-bar li a {
+    padding-bottom: 22px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #767575;
+    font-family: Vazirmatn;
+
+} 
+
+.nav-bar li a:hover, a:active {
+color:#1a1a0c;
+}
+#color-btn-signup a:hover, a:active {
+color: #3c877c;
+}
+#color-btn-login a:hover, a:active {
+color:#1d523a
+}
+hr {
+    height:0px; 
+	border: 2px solid; 
+	border-color: #24dcbc;
+}
+ h1 {
+    color: #ffff;
+    font-size: 50px; 
+    text-align-last: left;
+    display: inline-block;
+    font-family: Vazirmatn;
+    font-weight: lighter;
+ }
+ h3 {
+    font-family: Vazirmatn;
+    font-size: 25px;
+    font-weight: lighter;
+ }
+.background-idosos {
+    background-image: url("../images/idosos_home.png");
+    padding: auto;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-position: 30% 45%;
+    background-size: cover;
+    
+ } 
