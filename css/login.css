@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/login-bg.png") no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: Vazirmatn;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.celular {
+    height: 80vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 24vw;
+}
+
+.logo {
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login form input {
+    align-items: center;
+    border: none;
+    padding: 1.2em;
+    font-size: 16px;
+}
+
+.input-senha,
+.input-usuario {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #d9d9d9;
+}
+
+.icone-senha,
+.icone-usuario {
+    height: 2em;
+    width: 7%;
+}
+
+.login__senha,
+.login__usuario {
+    width: 93%;
+}
+
+.login__senha:focus,
+.login__usuario:focus {
+    outline: 0;
+}
+
+.login form input::placeholder {
+    color: #d9d9d9;
+}
+
+.esqueceu-senha {
+    text-decoration: none;
+    color: #d9d9d9;
+
+    text-align: right;
+    padding-block: 0.5em;
+}
+
+.botao {
+    text-transform: uppercase;
+    margin: 0 auto;
+    border: none;
+    border-radius: 14px;
+    padding: 0.5em;
+    color: #fff;
+    background-color: #52cbbe;
+    font-size: 24px;
+    width: 50%;
+    transition: background-color 200ms;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #94cac5;
+    transition: background-color 200ms;
+}
