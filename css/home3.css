@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* fonte */
+
+@import url('https://fonts.googleapis.com/css2? family= Vazirmatn:wght@200 & display=swap');
+ 
+/* body */
+
+body {
+    font-family:'Vazirmatn', sans-serif;
+    text-align: center;
+    background-color: #fff;
+}  
+
+
+/* corpo */
+
+section {
+    display: flex;
+    width: 1500px;
+    margin: 30px auto;
+}
+
+
+/* seletores */
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    color: #58C5B0;
+    padding: 25px;
+
+}
+
+
+/* class */
+
+.box{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+button {
+    clear: both;
+    background-color: #58C5B0;
+    border-radius: 50px;
+    color: #fff;
+    width: 200px;
+    margin: 70px auto;
+    font-size: 25px;
+    padding: 7px;
+}
