@@ -3,8 +3,13 @@
 
 body {
     box-sizing: border-box;
+    font-family: Vazirmatn;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
 
 #logo-home {
     position: relative;
@@ -13,7 +18,7 @@ body {
 }
 .nav-bar {
     position: absolute;
-    top: 0px;
+    top: 12px;
     bottom: auto;
     right: 70px;
     list-style-type: none;
@@ -40,7 +45,6 @@ color: #4ea87f;
     text-decoration: none;
     font-size: 19px;
     color: #767575;
-    font-family: Vazirmatn;
 
 } 
 
@@ -63,11 +67,9 @@ hr {
     font-size: 50px; 
     text-align-last: left;
     display: inline;
-    font-family: Vazirmatn;
     font-weight: lighter;
  }
  .background-idosos h3 {
-    font-family: Vazirmatn;
     font-size: 25px;
     font-weight:500;
     padding-left: 400px;
@@ -91,3 +93,72 @@ hr {
     background-size: cover;
     
  } 
+
+
+/* Footer */
+footer {
+    background-image: linear-gradient( 0.4deg,  rgba(88,197,176,1) 5%, rgba(255,255,255,1) 95% );
+    color: #fff;
+    padding-top: 200px;
+}
+
+.wrapper {
+    padding-inline: 50px;
+}
+
+.logo {
+    width: 245px;
+    margin-bottom: 12px;
+}
+
+.links h2 {
+    font-size: 36px;
+}
+
+.col {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.col .titulo {
+    font-weight: 700;
+}
+
+.col a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer hr {
+    background-color: #fff;
+    height: 2px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.termos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 8px;
+}
+
+.termos p {
+    font-size: 18px;
+}
+
+.socials {
+    display: flex;
+    gap: 1.2em;
+}
+
+.socials img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
