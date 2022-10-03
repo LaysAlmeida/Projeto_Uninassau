@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #043b3b;
+    font-family: Vazirmatn;
+}
+
+.letra-verde {
+    color: #225d4d;
+    text-align: left;
+}
+
+.green-background a {
+    display: flex;
+    justify-content: center;
+}
+.white-background {
+    background-color: #ffff;
+    border-radius: 80px;
+    padding: 70px 70px;
+}
+
+.donate-button{
+    background-color: #52cbbe;
+    color: #ffff;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+
+.donate-values button {
+    background-color: #52cbbe;
+    color: #ffff;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.donate-values button:hover {
+    background-color:#559c95;
+}
+.dados-pessoais {
+    margin-bottom: 50px;
+}
+
+.dados-pessoais h2 {
+    margin-top: 40px;
+}
+.dados-pessoais input{
+    background-color: #3d9f85;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    display: block;
+
+}
+form {
+    align-items: left;
+}
+
+
+.dados-pessoais input::placeholder {
+    color: #ffffffe1;
+
+}
+.dados-cc {
+    display: block;
+}
+.dados-cc input {
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    display: block;
+    
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dados-cc .linha {
+    border-bottom: 2px solid #d9d9d9;
+    border-width: thin;
+}
+
+input[type="date"] {
+    background-color: rgba(0, 0, 0, 0.395);
+    color: #ffff;
+    border-radius: 20px;
+}
+
+ .doar input {
+    float: right;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #52cbbe;
+    color: #ffff;
+    border:none;
+}
+.doar input:hover {
+    background-color:#559c95;
+}

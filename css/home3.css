@@ -60,5 +60,10 @@ button {
     width: 200px;
     margin: 70px auto;
     font-size: 25px;
+    border: none;
     padding: 7px;
+}
+
+button:hover {
+    cursor: pointer;
 }
