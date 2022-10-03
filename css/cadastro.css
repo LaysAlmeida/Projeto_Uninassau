@@ -25,6 +25,10 @@ img {
     margin-bottom: 20px;
 }
 
+form {
+    margin-top: 50px;
+}
+
 input {
     margin: -10px;
     min-width: 350px;
