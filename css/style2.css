@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200&display=swap');
+body {
+    background-image: url(../images/mapamundi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: Vazirmatn;
+    margin: 10px;
+    padding: 10px;
+    max-width: 70%;
+    max-height: 70%;
+}
+.title{
+    color: #ffff; 
+    font-weight: lighter;
+    margin: 20px;
+    padding: 60px;
+}
+
+.title h1 {
+    font-size: 45px;
+}
+
+.title h2 {
+    font-size: 30px;
+    margin-top: 60px;
+}
+.title strong {
+    color: rgb(186, 43, 43);
+}
+.pic{
+    position:absolute;
+    left: 80px;
+    bottom: 140px;
+    padding: 0px;
+}
