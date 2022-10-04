@@ -1,164 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
 
-
 body {
-    box-sizing: border-box;
-    font-family: Vazirmatn;
+  box-sizing: border-box;
+  font-family: Vazirmatn;
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #logo-home {
-    position: relative;
-    width: 940px;
-    margin: left;
+  position: relative;
+  width: 940px;
+  margin: left;
 }
 .nav-bar {
-    position: absolute;
-    top: 12px;
-    bottom: auto;
-    right: 70px;
-    list-style-type: none;
-    padding: 0px;
-    background-color: #ffff;
+  position: absolute;
+  top: 12px;
+  bottom: auto;
+  right: 70px;
+  list-style-type: none;
+  padding: 0px;
+  background-color: #ffff;
 }
 .nav-bar li {
-    display: inline;
-    margin: 0 0 0 28px;
+  display: inline;
+  margin: 0 0 0 28px;
 }
 
 #color-btn-signup a {
-   color:#24dcbc;
-
+  color: #24dcbc;
 }
 
 #color-btn-login a {
-color: #4ea87f;
-
+  color: #4ea87f;
 }
 
 .nav-bar li a {
-    padding-bottom: 22px;
-    text-decoration: none;
-    font-size: 19px;
-    color: #767575;
+  padding-bottom: 22px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #767575;
+}
 
-} 
-
-.nav-bar li a:hover, a:active {
-color:#1a1a0c;
+.nav-bar li a:hover,
+a:active {
+  color: #1a1a0c;
 }
-#color-btn-signup a:hover, a:active {
-color: #3c877c;
+#color-btn-signup a:hover,
+a:active {
+  color: #3c877c;
 }
-#color-btn-login a:hover, a:active {
-color:#1d523a
+#color-btn-login a:hover,
+a:active {
+  color: #1d523a;
 }
-hr {
-    height:0px; 
-	border: 2px solid; 
-	border-color: #24dcbc;
+header hr {
+  height: 0px;
+  border: 2px solid;
+  border-color: #24dcbc;
 }
 .background-idosos h1 {
-    color: #875757fb;
-    font-size: 50px; 
-    text-align-last: left;
-    display: inline;
-    font-weight: lighter;
- }
- .background-idosos h3 {
-    font-size: 25px;
-    font-weight:500;
-    padding-left: 400px;
-    text-align-last: left;
-
- }
- #section {
-    
-    background-color: #ffffff54;
-    text-align: left;
-    padding: 50px;
- }
+  color: #875757fb;
+  font-size: 50px;
+  text-align-last: left;
+  display: inline;
+  font-weight: lighter;
+}
+.background-idosos h3 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 400px;
+  text-align-last: left;
+}
+#section {
+  background-color: #ffffff54;
+  text-align: left;
+  padding: 50px;
+}
 .background-idosos {
-    background-image: url("../images/idosos_home.png");
-    padding: auto;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    padding: 100px 0;
-    background-position: 30% 45%;
-    background-size: cover;
-    
- } 
-
+  background-image: url('../images/idosos_home.png');
+  padding: auto;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  background-position: 30% 45%;
+  background-size: cover;
+}
 
 /* Footer */
 footer {
-    background-image: linear-gradient( 0.4deg,  rgba(88,197,176,1) 5%, rgba(255,255,255,1) 95% );
-    color: #fff;
-    padding-top: 200px;
+  background-color: #24dcbc;
+  color: #fff;
+  padding-top: 200px;
 }
 
 .wrapper {
-    padding-inline: 50px;
+  padding-inline: 50px;
 }
 
 .logo {
-    width: 245px;
-    margin-bottom: 12px;
+  width: 245px;
+  margin-bottom: 12px;
 }
 
 .links h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .col {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
 }
 
 .col .titulo {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .col a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 footer hr {
-    background-color: #fff;
-    height: 2px;
+  background-color: #fff;
+  height: 2px;
 }
 
 .links {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .termos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 8px;
 }
 
 .termos p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .socials {
-    display: flex;
-    gap: 1.2em;
+  display: flex;
+  gap: 1.2em;
 }
 
 .socials img {
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+footer hr {
+  background: black;
 }
