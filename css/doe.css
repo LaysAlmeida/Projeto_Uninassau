@@ -47,6 +47,7 @@ body {
 
 .donate-values button:hover {
     background-color:#559c95;
+    cursor:pointer;
 }
 .dados-pessoais {
     margin-bottom: 50px;
@@ -113,4 +114,5 @@ input[type="date"] {
 }
 .doar input:hover {
     background-color:#559c95;
+    cursor: pointer;
 }
