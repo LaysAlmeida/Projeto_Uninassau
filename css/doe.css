@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
 
 * {
-    margin: 10px;
-    padding: 0;
+    /* margin: 5px 20px; */
     box-sizing: border-box;
 }
 body {
     background-color: #043b3b;
     font-family: Vazirmatn;
+    margin: 30px 190px;
 }
 
 .letra-verde {
     color: #225d4d;
     text-align: left;
+    margin-left: 5px;
 }
 
 .green-background a {
     display: flex;
+    padding-bottom: 10px;
     justify-content: center;
 }
+
 .white-background {
     background-color: #ffff;
-    border-radius: 80px;
-    padding: 70px 70px;
+    border-radius: 40px;
+    padding: 50px 50px;
 }
 
 .donate-button{
@@ -35,32 +38,34 @@ body {
     display: flex;
 }
 
-
 .donate-values button {
     background-color: #52cbbe;
     color: #ffff;
     border: none;
+    margin-left: 15px;
     border-radius: 15px;
     font-size: 20px;
-    padding: 15px;
+    padding: 12px;
 }
 
 .donate-values button:hover {
     background-color:#559c95;
-    cursor:pointer;
+    cursor: pointer;
 }
 .dados-pessoais {
     margin-bottom: 50px;
 }
 
 .dados-pessoais h2 {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: 3px;
 }
 .dados-pessoais input{
     background-color: #3d9f85;
     border: none;
     border-radius: 20px;
-    padding: 7px;
+    margin-top: 20px;
+    padding: 10px;
     display: block;
 
 }
@@ -76,7 +81,9 @@ form {
 .dados-cc {
     display: block;
 }
+
 .dados-cc input {
+    margin-left: 20px;
     border: none;
     padding: 5px;
     font-size: 16px;
@@ -88,29 +95,38 @@ input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
-p {
-    display: flex;
-    justify-content: flex-start;
-}
 
 .dados-cc .linha {
     border-bottom: 2px solid #d9d9d9;
     border-width: thin;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 23%;
 }
 
+p {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(101, 98, 98);
+    margin-left: 25px;
+}
+
+
 input[type="date"] {
-    background-color: rgba(0, 0, 0, 0.395);
-    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.185);
+    color: rgba(0, 0, 0, 0.525);
     border-radius: 20px;
+    margin-top: -8px;
 }
 
  .doar input {
     float: right;
     border-radius: 30px;
+    margin-top: -5px;
+    margin-right: 30px;
     padding: 10px;
     background-color: #52cbbe;
     color: #ffff;
-    border:none;
 }
 .doar input:hover {
     background-color:#559c95;
