@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
 
-body {
+* {
   box-sizing: border-box;
-  font-family: Vazirmatn;
+  margin: 0;
 }
 
-* {
-  padding: 0;
-  margin: 0;
+body {
+  font-family: 'Vazirmatn';
 }
 
 #logo-home {
   position: relative;
   width: 940px;
   margin: left;
+  margin: 10px;
 }
 .nav-bar {
   position: absolute;
@@ -21,7 +21,6 @@ body {
   bottom: auto;
   right: 70px;
   list-style-type: none;
-  padding: 0px;
   background-color: #ffff;
 }
 .nav-bar li {
@@ -37,16 +36,20 @@ body {
   color: #4ea87f;
 }
 
+.nav-bar ul {
+  padding-top: 10px;
+}
+
 .nav-bar li a {
-  padding-bottom: 22px;
+  padding-bottom: 2px;
   text-decoration: none;
   font-size: 19px;
   color: #767575;
 }
 
-.nav-bar li a:hover,
-a:active {
+.nav-bar li a:hover{
   color: #1a1a0c;
+  border-bottom: 2px solid #24dcbc;
 }
 #color-btn-signup a:hover,
 a:active {
@@ -56,11 +59,10 @@ a:active {
 a:active {
   color: #1d523a;
 }
-header hr {
-  height: 0px;
-  border: 2px solid;
-  border-color: #24dcbc;
-}
+
+/* .headerBorder {
+border-bottom: 3px solid #58c5b0;
+} */
 .background-idosos h1 {
   color: #875757fb;
   font-size: 50px;
@@ -76,8 +78,12 @@ header hr {
 }
 #section {
   background-color: #ffffff54;
-  text-align: left;
-  padding: 50px;
+  margin-left: 20px;
+  margin-right: 90px;
+  border-radius: 30px;
+  width: 50%;
+  height: auto;
+  padding: 30px 20px 10px 45px;
 }
 .background-idosos {
   background-image: url('../images/idosos_home.png');
@@ -85,7 +91,7 @@ header hr {
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
-  padding: 100px 0;
+  padding: 70px 50px 40px 30px;
   background-position: 30% 45%;
   background-size: cover;
 }
