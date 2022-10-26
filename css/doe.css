@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
 
 * {
-    /* margin: 5px 20px; */
     box-sizing: border-box;
 }
 body {
     background-color: #043b3b;
     font-family: Vazirmatn;
-    margin: 30px 190px;
+    margin: 30px auto;
 }
 
 .letra-verde {
@@ -25,7 +24,8 @@ body {
 .white-background {
     background-color: #ffff;
     border-radius: 40px;
-    padding: 50px 50px;
+    margin: auto 40px;
+    padding: 35px 10px 50px 40px;
 }
 
 .donate-button{
@@ -53,7 +53,7 @@ body {
     cursor: pointer;
 }
 .dados-pessoais {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .dados-pessoais h2 {

@@ -1,46 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
+
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
-  overflow: hidden;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-}
-
-.img {
-  width: 100%;
-  height: 100%;
-  border-right: solid 1px black;
-}
-
-.container-text {
-  background-color: #24dcbc;
-  height: 50px;
-}
-
-.item {
-  color: #fff;
-  text-align: center;
   font-family: 'Vazirmatn';
 }
 
-p {
-  margin-top: 10px;
+#logo-home {
+  position: relative;
+  width: 940px;
+  margin: left;
+}
+.nav-bar {
+  position: absolute;
+  top: 12px;
+  bottom: auto;
+  right: 70px;
+  list-style-type: none;
+  padding: 0px;
+  background-color: #ffff;
+}
+.nav-bar li {
+  display: inline;
+  margin: 0 0 0 28px;
+}
+
+#color-btn-signup a {
   color: #24dcbc;
-  text-align: left;
-  font-family: 'Vazirmatn';
-  font-size: 30px;
-  margin-left: 10px;
 }
 
-.logo {
-  margin-left: 120px;
-  margin-top: 150px;
+#color-btn-login a {
+  color: #4ea87f;
+}
+
+.nav-bar li a {
+  padding-bottom: 22px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #767575;
+}
+
+.nav-bar li a:hover,
+a:active {
+  color: #1a1a0c;
+}
+#color-btn-signup a:hover,
+a:active {
+  color: #3c877c;
+}
+#color-btn-login a:hover,
+a:active {
+  color: #1d523a;
+}
+
+.headerBorder {
+border-bottom: 3px solid #58c5b0;
+}
+
+.mainBackground {
+  background-color: #69c8b6;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 14vh;
+}
+
+.mainContent {
+  background-color: #ffff;
+  margin: 30px auto 20px auto;
+  border-radius: 80px;
+  width: 80%;
+  height: auto;
+  padding: 40px 40px 120px 50px;
+}
+
+.mainContent span, h2 {
+  color:#0b6751;
+  font-weight: bold;
+}
+
+.mainContent h2 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+.mainContent p {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+#allignTitle {
+  text-align: center;
+  color: #0b6751;
+}
+#allignTitle h1 {
+  margin-top: 20px;
+  
+}
+.contentImg {
+  display: flex;
+}
+
+.imgDoctor {
+  margin-left:20%;
+  margin-bottom: 30px;
+  height: 350px;
+  
 }
