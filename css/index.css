@@ -135,6 +135,7 @@ footer {
 footer hr {
   background-color: #fff;
   height: 2px;
+  border: none;
 }
 
 .links {
@@ -163,6 +164,4 @@ footer hr {
   height: 32px;
   cursor: pointer;
 }
-footer hr {
-  background: black;
-}
+

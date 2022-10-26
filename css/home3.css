@@ -1,23 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-/* fonte */
-
-@import url('https://fonts.googleapis.com/css2? family= Vazirmatn:wght@200 & display=swap');
- 
-/* body */
-
-body {
-    font-family:'Vazirmatn', sans-serif;
+.vantagens {
     text-align: center;
-    background-color: #fff;
-}  
-
+    height: 100vh;
+}
 
 /* corpo */
 
-section {
+.vantagens section {
     display: flex;
     width: 1500px;
     margin: 100px auto;
@@ -25,17 +13,18 @@ section {
 
 
 /* seletores */
-
+.titulo {
+    padding-top: 2rem;
+}
 
 .image-home3 {
     width: 200px;
     height: 200px;
 }
 
-h1 {
+.vantagens h1 {
     color: #58C5B0;
     padding: 25px;
-
 }
 
 
@@ -52,7 +41,7 @@ h1 {
     font-size: 20px;
 }
 
-button {
+.vantagens button {
     clear: both;
     background-color: #58C5B0;
     border-radius: 50px;
@@ -64,6 +53,6 @@ button {
     padding: 7px;
 }
 
-button:hover {
+.vantagens button:hover {
     cursor: pointer;
 }
