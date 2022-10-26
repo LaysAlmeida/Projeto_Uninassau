@@ -4,27 +4,75 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #043b3b;
     font-family: Vazirmatn;
-    margin: 30px auto;
+    margin: 29px auto 0 auto;
 }
+#logo-home {
+    position: relative;
+    margin: left;
+    margin: 3px 3px 3px 20px;
+  }
+  .nav-bar {
+    position: absolute;
+    top: 12px;
+    bottom: auto;
+    right: 70px;
+    list-style-type: none;
+    background-color: #ffff;
+  }
+  .nav-bar li {
+    display: inline;
+    margin: 0 0 0 28px;
+  }
+  
+  #color-btn-signup a {
+    color: #24dcbc;
+  }
+  
+  #color-btn-login a {
+    color: #4ea87f;
+  }
+  
+  .nav-bar ul {
+    padding-top: 10px;
+  }
+  
+  .nav-bar li a {
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #767575;
+  }
+  
+  .nav-bar li a:hover{
+    color: #1a1a0c;
+    border-bottom: 2px solid #279999;
+  }
+  #color-btn-signup a:hover,
+  a:active {
+    color: #3c877c;
+  }
+  #color-btn-login a:hover,
+  a:active {
+    color: #1d523a;
+  }
 
 .letra-verde {
     color: #225d4d;
     text-align: left;
     margin-left: 5px;
 }
-
-.green-background a {
-    display: flex;
-    padding-bottom: 10px;
-    justify-content: center;
+.green-background {
+    background-color: #043b3b;
+    padding-top: 30px;
+    padding-bottom: 3vh;
 }
 
 .white-background {
     background-color: #ffff;
+    width: 80%;
     border-radius: 40px;
-    margin: auto 40px;
+    margin: 50px auto;
     padding: 35px 10px 50px 40px;
 }
 
