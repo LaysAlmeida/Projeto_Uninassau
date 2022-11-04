@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
   margin: 0;
 }
 
@@ -15,6 +16,7 @@ body {
   margin: left;
   margin: 10px;
 }
+
 .nav-bar {
   position: absolute;
   top: 12px;
@@ -23,6 +25,7 @@ body {
   list-style-type: none;
   background-color: #ffff;
 }
+
 .nav-bar li {
   display: inline;
   margin: 0 0 0 28px;
@@ -47,14 +50,16 @@ body {
   color: #767575;
 }
 
-.nav-bar li a:hover{
+.nav-bar li a:hover {
   color: #1a1a0c;
   border-bottom: 2px solid #24dcbc;
 }
+
 #color-btn-signup a:hover,
 a:active {
   color: #3c877c;
 }
+
 #color-btn-login a:hover,
 a:active {
   color: #1d523a;
@@ -63,36 +68,32 @@ a:active {
 /* .headerBorder {
 border-bottom: 3px solid #58c5b0;
 } */
-.background-idosos h1 {
-  color: #875757fb;
+.background-idosos h3 {
+  color: #ffff;
+  margin: 3% 2%;
   font-size: 50px;
-  text-align-last: left;
-  display: inline;
   font-weight: lighter;
 }
-.background-idosos h3 {
-  font-size: 25px;
-  font-weight: 500;
-  padding-left: 400px;
-  text-align-last: left;
+
+.transparent-background {
+  background-color: #3c877c50;
+  width: 100%;
+  height: 100%;
 }
-#section {
-  background-color: #ffffff54;
-  margin-left: 20px;
-  margin-right: 90px;
-  border-radius: 30px;
-  width: 50%;
-  height: auto;
-  padding: 30px 20px 10px 45px;
+
+.container-idosos{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.container-idosos div img {
+  width: 65vw;
 }
 .background-idosos {
-  background-image: url('../images/idosos_home.png');
-  padding: auto;
+  background-image: url('../images/maos_idosos_home.png');
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
-  padding: 70px 50px 40px 30px;
-  background-position: 30% 45%;
   background-size: cover;
 }
 
@@ -196,4 +197,3 @@ footer hr {
   height: 32px;
   cursor: pointer;
 }
-
