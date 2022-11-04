@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Vazirmatn:wght@200;300&display=swap');
+
+:root {
+  --main-green: #52cbbe;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../images/login-bg.png") no-repeat;
+  background-size: contain;
+
+  font-family: Vazirmatn;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 12rem;
+}
+
+.container .left-wrap {
+  display: inline-block;
+  height: 100vh;
+  width: 50%;
+  translate: 50px;
+}
+
+.container .left-wrap img {
+  height: 80vh;
+  margin: 6rem 0rem 0rem 8.9rem;
+}
+
+.right-wrap {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-wrap {
+  width: 80%;
+  margin-bottom: 3.2rem;
+}
+
+.title-wrap h1 {
+  color: var(--main-green);
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-left: 2.75rem;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-box img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.info-box .text-bg {
+  background-color: var(--main-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.text-bg span {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.botao {
+  text-transform: uppercase;
+  margin: 0 auto;
+  border: none;
+  border-radius: 14px;
+  padding: 0.55em;
+  color: #fff;
+  background-color: var(--main-green);
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 200ms;
+}
+
+.botao:hover {
+  cursor: pointer;
+  background-color: #94cac5;
+  transition: background-color 200ms;
+}
