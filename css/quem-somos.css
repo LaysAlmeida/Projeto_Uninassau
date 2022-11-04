@@ -15,7 +15,7 @@ header {
   width: 100vw;
   justify-content: space-around;
   align-items: center;
-  column-gap: 30%;
+  column-gap: 20%;
   flex-wrap: wrap;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -64,26 +64,17 @@ a:active {
 
 .mainBackground {
   background-color: #043b3b;
-  display: flex;
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 2%;
-  padding-bottom: 20%;
+  padding-top: 3%;
+  padding-bottom: 10%;
 }
 
 .mainContent {
-  width: 70%;
+  width: 80%;
   margin: auto;
   height: auto;
-  padding: 2% 2% 8% 1%;
+  padding: 2% 2% 8% 5%;
   background-color: #ffff;
-  border-radius: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  border-radius: 70px;
 }
 
 .mainContent span, h2 {
@@ -111,8 +102,9 @@ a:active {
 .container {
   display: flex;
   margin-top: 2%;
-  align-items: space-around;
-  column-gap: 90px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
 }
 
 

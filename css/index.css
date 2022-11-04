@@ -21,10 +21,6 @@ header {
   margin-bottom: 1%;
 }
 
-#logo-home {
-  width: 940px;
-}
-
 .nav-bar {
   background-color: #ffff;
 }
@@ -34,10 +30,6 @@ header {
   list-style-type: none;
   column-gap: 25px;
   flex-wrap: wrap;
-}
-
-.nav-bar ul {
-  padding-top: 2%;
 }
 
 #color-btn-signup a {

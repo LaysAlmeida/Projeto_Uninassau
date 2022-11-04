@@ -15,7 +15,7 @@ header {
     width: 100vw;
     justify-content: space-around;
     align-items: center;
-    column-gap: 30%;
+    column-gap: 20%;
     flex-wrap: wrap;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -180,7 +180,7 @@ input[type="date"] {
     background-color: rgba(0, 0, 0, 0.185);
     color: rgba(0, 0, 0, 0.525);
     border-radius: 20px;
-    width: 10%;
+    width: 15%;
 }
 
 .doar input {
