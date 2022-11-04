@@ -96,6 +96,38 @@ border-bottom: 3px solid #58c5b0;
   background-size: cover;
 }
 
+/* Descricao */
+.descricao {
+  padding-top: 100px;
+  height: 100vh;
+  background-image: url('../images/mapa-bairro.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.descricao h3,
+.descricao h4 {
+  color: #fff;
+  margin-inline: 7%;
+  border-radius: 16px;
+  padding: 16px;
+  font-weight: 300;
+}
+
+.descricao h3 {
+  background-color: rgba(29, 82, 58, 0.85);
+  font-size: 50px;
+  max-width: 45vw;
+}
+
+.descricao h4 {
+  background-color: rgba(25, 186, 156, 0.85);
+  margin-top: 56px;
+  max-width: 35vw;
+  font-size: 36px;
+
+}
+
 /* Footer */
 footer {
   background-color: #24dcbc;
