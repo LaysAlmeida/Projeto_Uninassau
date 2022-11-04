@@ -10,25 +10,34 @@ body {
   font-family: 'Vazirmatn';
 }
 
+/* navegáveis */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 #logo-home {
-  position: relative;
   width: 940px;
-  margin: left;
-  margin: 10px;
 }
 
 .nav-bar {
-  position: absolute;
-  top: 12px;
-  bottom: auto;
-  right: 70px;
-  list-style-type: none;
   background-color: #ffff;
 }
 
-.nav-bar li {
-  display: inline;
-  margin: 0 0 0 28px;
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 25px;
+  flex-wrap: wrap;
+}
+
+.nav-bar ul {
+  padding-top: 2%;
 }
 
 #color-btn-signup a {
@@ -39,12 +48,7 @@ body {
   color: #4ea87f;
 }
 
-.nav-bar ul {
-  padding-top: 10px;
-}
-
 .nav-bar li a {
-  padding-bottom: 2px;
   text-decoration: none;
   font-size: 19px;
   color: #767575;
@@ -65,9 +69,8 @@ a:active {
   color: #1d523a;
 }
 
-/* .headerBorder {
-border-bottom: 3px solid #58c5b0;
-} */
+/* body */
+
 .background-idosos h3 {
   color: #ffff;
   margin: 3% 2%;
