@@ -7,45 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/cadastro.css" type="text/css">
     <link rel="shortcut icon" href="../images/Logo_so_imagem.png" type="image/x-icon">
+    <script src="../js/script.js" defer></script>
     <title>Cadastro</title>
 </head>
 
 <body>
-    <div>
-        <img src="../images/grandao.png" width="680px">
+    <div class="wrapper">
+        <div class="coluna-a">
+            <h3>Prazer em conhecê-lo! :)</h3>
+            <h2>Crie sua conta agora mesmo</h2>
+            <div class="login">
+                <h4>já tem uma conta?</h4>
+                <a href="./login.html" ><button class="button">Entrar</button></a>
+            </div>
+        </div>
+        <div class="coluna-b">
+            <a href="./index.html">
+                <img src="../images/Logo_nova.png" alt="Logo" class="logo">
+            </a>
+            <form action="" id="form">
+                <h1 class="titulo">Criar conta</h1>
+                <div class="pag-1 show">
+                    <input type="text" placeholder="Nome completo" id="nome">
+                    <label for="extrato">Extrato previdenciário</label>
+                    <input type="file" id="extrato">
+                    <input type="email" placeholder="E-mail" id="e-mail">
+                    <label for="foto">Foto 3x4</label>
+                    <input type="password" placeholder="Senha" id="senha">
+                    <label for="curriculo">Currículo</label>
+                    <input type="text" placeholder="Identidade" id="identidade">
+                    <input type="file" id="curriculo">
+                    <label for="vacina">Cartão de vacina</label>
+                    <input type="file" id="vacina">
+                    <input type="file" id="foto">
+                </div>
+
+                <div class="pag-2 hide">
+                    <label for="comp-residencia">Comprovante de residencia</label>
+                    <input type="file" id="comp-residencia">
+                    <label for="dados-bancarios">Dados bancários</label>
+                    <input type="file" id="dados-bancarios">
+                    <label for="ant-criminais">Antecedentes criminais</label>
+                    <input type="file" id="ant-criminais">
+                    <label for="titulo">Titulo de eleitor</label>
+                    <input type="file" id="titulo">
+                    <label for="nada-consta">Nada consta COREN</label>
+                    <input type="file" id="nada-consta">
+                    <label for="carteira-coren">Carteira do COREN</label>
+                    <input type="file" id="carteira-coren">
+                </div>
+                <div class="botoes">
+                    <button type="button" class="button hide" id="voltar">VOLTAR</button>
+                    <button type="button" class="button show" id="avancar">CONTINUAR</button>
+                    <button type="submit" class="button hide" id="cadastrar">CADASTRAR</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <div id="right">
-        <form action="">
-            <a href="../html/index.html"><img src="../images/logoo.png"></a>
-
-            <div class="input">
-                <img src="../images/nome.png" class="icone">
-                <input id="username" name="username" placeholder="Nome" type="text">
-            </div>
-
-            <div class="input">
-                <img src="../images/email.png" alt="">
-                <input id="email" name="email" placeholder="Email" type="text">
-            </div>
-
-            <div class="input">
-                <img src="../images/celularr.png" alt="">
-                <input id="phone" name="phone" placeholder="Celular" type="text">
-            </div>
-
-            <div class="input">
-                <img src="../images/senha.png" alt="">
-                <input id="password" name="password" placeholder="Senha" type="password">
-            </div>
-
-            <div class="input">
-                <img src="../images/senha.png" alt="">
-                <input id="password" name="password" placeholder="Digite a senha novamente" type="password">
-            </div>
-
-            <button class="btn" type="submit">Cadastrar</button>
-    </div>
-    </form>
 </body>
 
 </html>
