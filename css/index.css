@@ -62,34 +62,194 @@ a:active {
 }
 
 /* body */
+#header {
+  margin: 10px;
+}
+
+.logo-home{
+width: 250px;
+position: relative;
+left: 9%;
+top: 3px;
+}
+
+.container-idosos{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 14%;
+  
+}
+.container-idosos div img {
+  width: 65vw;
+}
+.background-idosos {
+  background-image: url('../images/fundinho.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 91vh;
+}
 
 .background-idosos h3 {
   color: #ffff;
   margin: 3% 2%;
   font-size: 50px;
   font-weight: lighter;
+  width: 30vw;
 }
 
-.transparent-background {
-  background-color: #3c877c50;
-  width: 100%;
-  height: 100%;
-}
+/* select*/
 
-.container-idosos{
+.container-dad {
+  width: 38%;
+  height: 10vh;
+  background-color: #fff;
+  border-radius: 40px;
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
+  margin-left: 16%;
+  margin-top: 6%;
 }
-.container-idosos div img {
-  width: 65vw;
+
+.container-cuidador {
+  margin-left: 1%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
-.background-idosos {
-  background-image: url('../images/maos_idosos_home.png');
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.container-local {
+  margin-left: ;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.seta1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -3vw;
+  pointer-events: none;
+}
+
+.seta2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -3vw;
+  pointer-events: none;
+}
+
+.container-cuidador img {
+  width: 3.5vw;
+  margin-right: 0.1vw;
+}
+
+.seta1 img {
+  width: 3vw;
+  
+}
+
+.seta2 img {
+  width: 3vw;
+  
+}
+
+.lupa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vw;
+}
+
+.lupa img {
+  width: 4.5vw;
+  
+}
+
+.container-local img {
+  border: 0px;
+  width: 3vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.container-cuidador select {
+  width: 12vw;
+  height: 5vh;
+  line-height: 100%;
+  border-radius: 12px;
+  border-color: #1d523a;
+  appearance: none;
+  padding-left: 1.2rem;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #1a1a0c;
+  font-weight: 600;
+  border: none;
+}
+
+.container-local select {
+  width: 12vw;
+  height: 5vh;
+  line-height: 100%;
+  border-radius: 12px;
+  border-color: #1d523a;
+  appearance: none;
+  padding-left: 1.2rem;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #1a1a0c;
+  font-weight: 600;
+  border: no;
+}
+
+.escrituras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 81vw;
+  height: 10vw;
+  margin-left: 8vw;
+}
+
+.escrituras div {
+  width: 27vw;
+  margin-top: 13vw;
+  margin-left: -17vw;
+}
+
+.escrituras h3 {
+  font-size: 4.4em;
+  text-align: start;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.escrituras p {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #fff;
+  margin-top: -1.5rem;
+}
+
+.escrituras img {
+  width: 0.9vw;
+  margin-left: 4vw;
+  margin-top: 1vw; 
+}
+
+.text1 {
+
+}
+
+.text2 p {
+  margin-left: 1.8vw;
+}
+
+.text3 p {
+  margin-left: 3.5vw;
 }
 
 /* Descricao */
