@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: min(25vw, 20rem);
     background-color: #63B29F;
     color: #FFFFFF;
