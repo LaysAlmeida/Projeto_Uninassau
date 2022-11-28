@@ -8,17 +8,7 @@
 
 body {
   font-family: 'Vazirmatn';
-}
-
-header {
-  display: flex;
-  width: 100vw;
-  justify-content: space-around;
-  align-items: center;
-  column-gap: 20%;
-  flex-wrap: wrap;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  height: 100vh;
 }
 
 .nav-bar {
@@ -69,8 +59,9 @@ a:active {
 }
 
 .mainContent {
+  margin: 0 auto;
+  margin-top: 4rem;
   width: 80%;
-  margin: auto;
   height: auto;
   padding: 2% 2% 8% 5%;
   background-color: #ffff;

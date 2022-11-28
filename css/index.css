@@ -21,6 +21,10 @@ header {
   margin-bottom: 1%;
 }
 
+hearder nav {
+  background-color: #ffffff;
+}
+
 .nav-bar {
   background-color: #ffff;
 }
@@ -83,6 +87,7 @@ top: 3px;
   width: 65vw;
 }
 .background-idosos {
+  margin-top: 4.5rem;
   background-image: url('../images/fundinho.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,7 +123,6 @@ top: 3px;
 }
 
 .container-local {
-  margin-left: ;
   display: flex;
   justify-content: left;
   align-items: center;
