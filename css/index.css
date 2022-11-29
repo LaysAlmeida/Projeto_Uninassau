@@ -13,15 +13,15 @@ body {
 /* navegáveis */
 
 header {
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  
 }
 
-hearder nav {
+header nav {
   background-color: #ffffff;
 }
 
@@ -72,27 +72,26 @@ a:active {
 
 .logo-home{
 width: 250px;
-position: relative;
 left: 9%;
 top: 3px;
 }
 
 .container-idosos{
+  width: 100vw;
   display: flex;
   align-items: flex-start;
   margin-left: 14%;
   
-}
-.container-idosos div img {
-  width: 65vw;
 }
 .background-idosos {
   margin-top: 4.5rem;
   background-image: url('../images/fundinho.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 91vh;
+  background-position: center center;
+  background-attachment: fixed;
+  min-width: 100vw;
+  height: 100%;
 }
 
 .background-idosos h3 {
@@ -100,14 +99,14 @@ top: 3px;
   margin: 3% 2%;
   font-size: 50px;
   font-weight: lighter;
-  width: 30vw;
+  width: 30%;
 }
 
 /* select*/
 
 .container-dad {
   width: 38%;
-  height: 10vh;
+  height: 10%;
   background-color: #fff;
   border-radius: 40px;
   display: flex;
@@ -244,9 +243,6 @@ top: 3px;
   margin-top: 1vw; 
 }
 
-.text1 {
-
-}
 
 .text2 p {
   margin-left: 1.8vw;
@@ -290,7 +286,7 @@ top: 3px;
 
 /* Footer */
 footer {
-  background-color: #24dcbc;
+  background-color: #529787;
   color: #fff;
   padding-top: 200px;
 }

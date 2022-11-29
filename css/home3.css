@@ -1,12 +1,19 @@
 .vantagens {
     text-align: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image:  url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .vantagens section {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
     width: 100%;
     margin-top: 100px;
 }
@@ -56,6 +63,7 @@
 }
 
 .vantagens button {
+    align-items: center;
     clear: both;
     background-color: #58C5B0;
     border-radius: 50px;
@@ -69,4 +77,48 @@
 
 .vantagens button:hover {
     cursor: pointer;
+}
+
+/* Resoluções */
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 359px){
+    .vantagens {
+        text-align: center;
+        height: 100%;
+        min-width: 100%  
+    }
+
+    .vantagens section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-top: 100px;
+      
+    }
+
+    .box{
+        padding-top: 25px;
+        width: 300px;
+        height: 300px;
+        margin: 0px 30px;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .box p {
+        align-items: center;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .image-home3 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 412px) {
+
 }

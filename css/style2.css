@@ -8,6 +8,8 @@
 
 .container-home2 {
     background-image: url(../images/mapamundi.png);
+    background-repeat: repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     align-content: stretch;
@@ -34,8 +36,4 @@ body{
 }
 .title strong {
     color: rgb(186, 43, 43);
-}
-.pic{
-
-
 }
