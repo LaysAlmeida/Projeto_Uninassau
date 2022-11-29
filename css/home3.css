@@ -82,6 +82,58 @@
 /* Resoluções */
 
 /* Mobile */
+
+@media (min-width: 360px) and (max-width: 412px) {
+    .vantagens {
+        text-align: center;
+        height: 100%;
+        min-width: 100%  
+    }
+    
+    .vantagens section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+        
+    }
+    
+    .box{
+        padding-top: 25px;
+        width: 300px;
+        height: 300px;
+        margin: 0px 30px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .box p {
+        align-items: center;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .image-home3 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .vantagens button {
+        align-items: center;
+        clear: both;
+        background-color: #58C5B0;
+        border-radius: 50px;
+        color: #fff;
+        width: 250px;
+        margin: 70px auto;
+        font-size: 30px;
+        border: none;
+        padding: 7px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 359px){
     .vantagens {
         text-align: center;
@@ -117,56 +169,5 @@
     .image-home3 {
         width: 100px;
         height: 100px;
-    }
-}
-
-@media (min-width: 377px) and (max-width: 412px) {
-    .vantagens {
-        text-align: center;
-        height: 100%;
-        min-width: 100%  
-    }
-
-    .vantagens section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-top: 100px;
-      
-    }
-
-    .box{
-        padding-top: 25px;
-        width: 300px;
-        height: 300px;
-        margin: 0px 30px;
-        background-color: white;
-        border-radius: 15px;
-    }
-
-    .box p {
-        align-items: center;
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-
-    .image-home3 {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .vantagens button {
-        align-items: center;
-        clear: both;
-        background-color: #58C5B0;
-        border-radius: 50px;
-        color: #fff;
-        width: 250px;
-        margin: 70px auto;
-        font-size: 30px;
-        border: none;
-        padding: 7px;
     }
 }
