@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Vazirmatn';
+    width: 100vw;
 }
 
 .header {
@@ -95,13 +97,14 @@ body {
     margin: 2vw auto;
     text-align: center;  
     border-bottom: solid #244b42;
-    width: 20vw;
+    width: 100%;
     
 }
 
 .h2 h2 {
     font-weight: 900;
     font-size: 1.8em;
+    width: 100%;
 }
 
 .boneco {
@@ -122,50 +125,97 @@ body {
     margin: 1.5vw 1vw 1.5vw 1.5vw;
 }
 
-.enfermeira {
-    width: 40vw;
-    border: 3px solid #63B29F;
-    border-radius: 30px;
-    margin-left: 10vw;
+#enfermeiras{
+    width: 100vw;
     display: flex;
     justify-content: start;
     align-items: center;
-    
 }
+
+.enfermeira {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 8vw;
+    width: 40vw;
+    border: 3px solid #63B29F;
+    border-radius: 30px;
+    margin-left: 10vw; 
+}
+
+.enfermeira2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 8vw;
+    width: 40vw;
+    border: 3px solid #63B29F;
+    border-radius: 30px;
+    margin-left: 5vw;
+}
+
 
 .enfermeira img {
     position: relative;
     width: 5vw;
-    margin: 0.8vw;
+    margin: 1vw;
     border: 3px solid #244b42;
     
 }
 
-.coluna {
-    margin-left: 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
+.enfermeira2 img {
+    position: relative;
+    width: 5vw;
+    margin: 1vw;
+    border: 3px solid #244b42;
 }
 
+
 .enfermeira h4 {
-    width: 15vw;
+    width: 100%;
     font-size: 1.1em;
     height: 3vh;
+    margin-bottom: -1vw;
+}
+
+.enfermeira2 h4 {
+    width: 100%;
+    font-size: 1.1em;
+    height: 3vh;
+    margin-bottom: -1vw;
 }
 
 .enfermeira p {
-    margin-top: -1.4vw;
-    width: 15vw;
+    width: 100%;
     font-weight: 600;
     height: 3vh;
 }
 
+.enfermeira2 p {
+    width: 100%;
+    font-weight: 600;
+    height: 3vh;
+}
+
+
+
 .enfermeira button {
     color: #fff;
     width: 10vw;
-    margin-top: 0.1vw;
+    padding: 5px;
+    font-size: 0.75em;
+    background-color: #63B29F;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.enfermeira2 button {
+    color: #fff;
+    width: 10vw;
     padding: 5px;
     font-size: 0.75em;
     background-color: #63B29F;
@@ -183,4 +233,11 @@ body {
     text-align: center;
     background-color: #63B29F;
     border-radius: 20px;
+}
+.coluna {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
 }
