@@ -78,7 +78,7 @@ top: 3px;
 }
 
 .container-idosos{
-  width: 100vw;
+  min-width: 100vw;
   display: flex;
   align-items: flex-start;
   margin-left: 14%;
