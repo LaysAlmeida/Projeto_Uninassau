@@ -110,7 +110,7 @@ a:active {
 /* Resoluções */
 
 /* Dispositvos Maiores */
-@media (max-width: 1024px) {
+@media (min-width: 948px) and (max-width: 1024px) {
   .mainContent a img{
     height: 95px;
     width: 180px;
