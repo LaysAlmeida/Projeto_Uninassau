@@ -142,6 +142,7 @@ body {
     border: 3px solid #63B29F;
     border-radius: 30px;
     margin-left: 10vw; 
+    margin-right: 5vw; 
 }
 
 .enfermeira2 {
@@ -225,6 +226,18 @@ body {
     cursor: pointer;
 }
 
+.coluna {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.coluna h4 {
+    height: 3vw;
+}
+
 .footer {
     color: #fff;
     width: 90vw;
@@ -234,10 +247,11 @@ body {
     background-color: #63B29F;
     border-radius: 20px;
 }
-.coluna {
-    margin-left: 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: "";
 }
