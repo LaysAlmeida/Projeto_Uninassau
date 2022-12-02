@@ -20,7 +20,7 @@ body {
     
 }
 
-.h1 {
+.titulo {
     margin-top: -2vw;
 }
 
@@ -48,6 +48,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.input input {
+    width: 100%;
 }
 
 .dad {
@@ -92,7 +96,7 @@ body {
     cursor: pointer;
 }
 
-.h2 {
+.subtitulo {
     margin: 2vw auto;
     text-align: center;  
     border-bottom: solid #244b42;
@@ -100,7 +104,7 @@ body {
     
 }
 
-.h2 h2 {
+.subtitulo h2 {
     font-weight: 900;
     font-size: 1.8em;
     width: 100%;
@@ -125,58 +129,24 @@ body {
 }
 
 #enfermeiras{
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
     display: flex;
-    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
     align-items: center;
 }
 
 .enfermeira {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    height: 8vw;
-    width: 40vw;
-    border: 3px solid #63B29F;
-    border-radius: 30px;
-    margin-left: 10vw; 
-    margin-right: 5vw; 
+    margin-bottom: 4rem;
+    display: block;
+    max-height: 25rem;
 }
 
-.enfermeira img {
-    position: relative;
-    width: 5vw;
-    margin: 1vw;
-    border: 3px solid #244b42;
-    
+.card img {
+    height: 15rem;
 }
-
-.enfermeira h4 {
-    width: 100%;
-    font-size: 1.1em;
-    height: 3vh;
-    margin-bottom: -1vw;
-}
-
-.enfermeira p {
-    width: 100%;
-    font-weight: 600;
-    height: 3vh;
-}
-
-.enfermeira button {
-    color: #fff;
-    width: 10vw;
-    padding: 5px;
-    font-size: 0.75em;
-    background-color: #63B29F;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
 
 .coluna {
     margin-left: 2vw;
@@ -206,4 +176,50 @@ body {
 
 .show {
     display: "";
+}
+
+@media (max-width: 425px) {
+    .logozinha {
+        text-align: center;
+    }
+
+    .titulo {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .titulo h1 {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        margin-top: 1em;
+        width: 90vw;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    .input .botao {
+        display: none;
+    }
+
+    .input #busca-cuidador {
+        display: initial;
+    }
+
+    .input #busca-cuidador::placeholder {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .subtitulo {
+        margin-bottom: 1.5rem;
+    }
+
+    .boneco {
+        display: none;
+    }
 }
