@@ -13,28 +13,37 @@ body {
 
 /* navegáveis */
 
-header {
-  width: 100vw;
+.navbar {
+  background-color: #fff;
+}
+
+.container-fluid {
   display: flex;
+  width: 100vw;
+  height: 1vh;
   justify-content: space-around;
   align-items: center;
+  column-gap: 20%;
   flex-wrap: wrap;
-  
+  margin-top: 1%;
 }
 
-header nav {
-  background-color: #ffffff;
-}
-
-.nav-bar {
-  background-color: #ffff;
-}
-
-.nav-bar ul {
+.navbar-nav {
   display: flex;
-  list-style-type: none;
-  column-gap: 25px;
   flex-wrap: wrap;
+  column-gap: 1rem;
+  list-style-type: none;
+}
+
+li a {
+  font-size: 19px;
+  color: #767575;
+  text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+  color: #1a1a0c;
+  border-bottom: 2px solid #24dcbc;
 }
 
 #color-btn-signup a {
@@ -43,17 +52,6 @@ header nav {
 
 #color-btn-login a {
   color: #4ea87f;
-}
-
-.nav-bar li a {
-  text-decoration: none;
-  font-size: 19px;
-  color: #767575;
-}
-
-.nav-bar li a:hover {
-  color: #1a1a0c;
-  border-bottom: 2px solid #24dcbc;
 }
 
 #color-btn-signup a:hover,
@@ -71,28 +69,24 @@ a:active {
   margin: 10px;
 }
 
-.logo-home{
-
-left: 9%;
-top: 3px;
-}
-
 .container-idosos{
   display: flex;
   margin-left: 14%;
-  
 }
 .background-idosos {
   width: 100%;
-  height: 94vh;
+  height: 50rem;
   background:  url('../images/fundinho.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   transform: translateY(60px);
 }
 
-
 .background-idosos h3 {
   color: #ffff;
-  margin: 3% 2%;
+  margin: 3% 2%;  
   font-size: 50px;
   font-weight: lighter;
   width: 30%;
@@ -148,12 +142,10 @@ top: 3px;
 
 .seta1 img {
   width: 3vw;
-  
 }
 
 .seta2 img {
   width: 3vw;
-  
 }
 
 .lupa {
@@ -165,7 +157,6 @@ top: 3px;
 
 .lupa img {
   width: 4.5vw;
-  
 }
 
 .container-local img {
@@ -203,18 +194,17 @@ top: 3px;
   font-weight: 600;
 }
 
-.escrituras {
+/* .escrituras {
   display: flex;
   justify-content: center;
   align-items: baseline;
   width: 81vw;
-  height: 10vw;
   margin-left: 8vw;
 }
 
 .escrituras div {
   width: 27vw;
-  margin-top: 9.5vw;
+  margin-top: 4rem;
   margin-left: -17vw;
 }
 
@@ -222,8 +212,6 @@ top: 3px;
   font-size: 4.4em;
   text-align: start;
   font-weight: 900;
-  padding: 0;
-  margin: 0;
 }
 
 .escrituras p {
@@ -235,11 +223,11 @@ top: 3px;
 }
 
 .escrituras img {
-  width: 0.9vw;
+  width: 1vw;
+  height: 4rem;
   margin-left: 4vw;
-  margin-top: 1vw; 
-}
-
+  margin-top: 1rem; 
+} */
 
 .text2 p {
   margin-left: 1.8vw;
