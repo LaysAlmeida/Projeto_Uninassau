@@ -1,5 +1,5 @@
 const searchInput = document.getElementById('busca-cuidador');
-const nurses = [...document.querySelectorAll(".enfermeira")]
+const nurses = [...document.querySelectorAll(".card")]
 
 const search = () => {
     nurses.forEach(nurse => nurse.style.display = "none")
