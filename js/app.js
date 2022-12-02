@@ -1,27 +1,16 @@
-const oculta = document.getElementById("oculta")
-oculta.style.display = "none"
-const resultabusca = document.getElementsByTagName("h2")
+const searchInput = document.getElementById('busca-cuidador');
+const nurses = [...document.querySelectorAll(".enfermeira")]
 
-const procura = () => {
-    const searchbox = document.getElementById("buscacuidador").value.toUpperCase();
-    const vagas = document.getElementById("professional-list")
-    const enfermeira = document.querySelectorAll(".enfermeira")
-    const pname = vagas.getElementsByTagName("h4")
-    
+const search = () => {
+    nurses.forEach(nurse => nurse.style.display = "none")
 
-    for(var i = 0; i < pname.length; i++) {
-        let achou = enfermeira[i].getElementsByTagName("h4")[0];
+    searchInput.value.length <= 0 && nurses.forEach(nurse => nurse.style.display = "")
 
-        if(achou) {
-            let textvalue = achou.textContent || achou.innerHTML
-            
-            if(textvalue.toUpperCase().indexOf(searchbox) > - 1) {
-                enfermeira[i].style.display = "";
-                oculta.style.display = ""
-            } else {
-                enfermeira[i].style.display = "none";
-                oculta.style.display = ""
-            }
-        }
-    }
+    const filteredNurses = searchInput.value.length > 0
+        ? nurses.filter(nurse => nurse.innerHTML.toLowerCase().includes(searchInput.value.toLowerCase()))
+        : []
+
+    filteredNurses.forEach(filteredNurse => filteredNurse.style.display = "")
 }
+
+searchInput.addEventListener('input', search)

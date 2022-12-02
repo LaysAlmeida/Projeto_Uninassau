@@ -69,7 +69,6 @@ body {
     font-size: 1.45em;
     border: none;
     outline: none;
-   
 }
 
 .botao {
@@ -145,19 +144,6 @@ body {
     margin-right: 5vw; 
 }
 
-.enfermeira2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    height: 8vw;
-    width: 40vw;
-    border: 3px solid #63B29F;
-    border-radius: 30px;
-    margin-left: 5vw;
-}
-
-
 .enfermeira img {
     position: relative;
     width: 5vw;
@@ -166,22 +152,7 @@ body {
     
 }
 
-.enfermeira2 img {
-    position: relative;
-    width: 5vw;
-    margin: 1vw;
-    border: 3px solid #244b42;
-}
-
-
 .enfermeira h4 {
-    width: 100%;
-    font-size: 1.1em;
-    height: 3vh;
-    margin-bottom: -1vw;
-}
-
-.enfermeira2 h4 {
     width: 100%;
     font-size: 1.1em;
     height: 3vh;
@@ -193,14 +164,6 @@ body {
     font-weight: 600;
     height: 3vh;
 }
-
-.enfermeira2 p {
-    width: 100%;
-    font-weight: 600;
-    height: 3vh;
-}
-
-
 
 .enfermeira button {
     color: #fff;
@@ -214,17 +177,6 @@ body {
     cursor: pointer;
 }
 
-.enfermeira2 button {
-    color: #fff;
-    width: 10vw;
-    padding: 5px;
-    font-size: 0.75em;
-    background-color: #63B29F;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    cursor: pointer;
-}
 
 .coluna {
     margin-left: 2vw;
